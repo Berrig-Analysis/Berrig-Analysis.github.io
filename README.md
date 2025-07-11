@@ -1,2 +1,2 @@
-# Berrig-analysis.github.io
+# Berrig-Analysis.github.io
 website for Berrig Analysis
