@@ -10,7 +10,6 @@ enableRobotsTXT = true
 
 [params]
     description = "Consultancy and solutions for system simulation and Bayesian data analysis"
-    # description = "Offers consultancy and solutions to simulations of systems in economics, physics, mathematics, epidemiology and biology. We also offer statistical analysis of data using methods from Bayesian statistics."
 
 [menu]
     [[menu.main]]
@@ -26,25 +25,16 @@ enableRobotsTXT = true
         # weight = 4
 
     [[menu.main]]
+        identifier = "github"
         name = "Github"
         url = "https://github.com/Berrig-Analysis"
         # pre = "<i class='icon-github text-2xl'></i>"
         # weight = 2
 
-# [menu]
-# 
-#   [[menu.main]]
-#     identifier = "products"
-#     name = "Products"
-#     url = "/products/"
-#     weight = 1
-# 
-#   [[menu.main]]
-#     identifier = "blog"
-#     name = "Blog"
-#     url = "/blog/"
-#     weight = 2
-# 
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
+
 #   # Footer Menu
 #   [[menu.footer]]
 #     name = "Home"
